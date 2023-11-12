@@ -4,7 +4,7 @@ const icons = ["icon-document.svg", "icon-folder.svg", "icon-upload.svg"];
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-[url(/images/bg-mobile.png)] justify-center bg-cover bg-no-repeat md:flex-row [background:url(/images/bg-desktop.png'),#6DB3F2]">
+    <main className="flex min-h-screen flex-col items-center bg-[url(/images/bg-mobile.png)] justify-center bg-cover bg-no-repeat md:flex-row md:[background:url('/images/bg-desktop.png')_#0C122C_no-repeat_left_bottom] md:[background-position:left_bottom,right_top] md:[background-size:100%_50%,cover]">
       <div className="flex flex-col lg:flex-row gap-6 lg:items-end">
         <div className="flex flex-col bg-delft_blue w-[330px] h-[200px] rounded-b-lg rounded-tl-lg rounded-tr-[100px] px-7 justify-evenly">
           <Image src="/images/logo.svg" alt="logo" width={135} height={40} />
