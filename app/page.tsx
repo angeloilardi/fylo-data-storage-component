@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col bg-delft_blue w-[330px] md:w-[550px] h-[150px] rounded-lg px-5 relative gap-3">
-          <p className="text-sm text-center mt-10 text-delft_blue-900 md:text-start">
+          <p className="text-sm text-center mt-8 text-delft_blue-900 md:text-start">
             You’ve used <strong>815 GB</strong> of your storage
           </p>
           <div className="rounded-full w-full h-5 bg-delft_blue-400 p-1">
@@ -44,8 +44,8 @@ export default function Home() {
             <p>0 GB</p>
             <p>1000 GB</p>
           </div>
-          <div className="w-[150px] h-[60px] bg-white flex justify-center rounded-md items-center absolute -bottom-[20%] left-[25%] md:-top-[25%] md:left-[65%] md:rounded-t-md md:rounded-bl-md md:rounded-br-none">
-            <p className="text-xs text-taupe_gray font-bold">
+          <div className="w-[190px] h-[70px] bg-white flex justify-center rounded-md items-center absolute -bottom-[25%] left-[22%] md:-top-[30%] md:left-[61%] md:rounded-t-md md:rounded-bl-md md:rounded-br-none">
+            <p className="text-xs text-taupe_gray font-bold tracking-wider align-top">
               <span className="text-4xl font-bold text-black">185 </span>GB LEFT
             </p>
             <div className="hidden md:block w-0 h-0 border-t-[20px] border-r-0 border-b-0 border-l-[20px] border-t-white border-b-transparent absolute border-x-transparent top-[100%] right-0"></div>
