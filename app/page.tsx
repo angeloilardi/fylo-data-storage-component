@@ -3,6 +3,7 @@ import Image from "next/image";
 const icons = ["icon-document.svg", "icon-folder.svg", "icon-upload.svg"];
 
 export default function Home() {
+  const usedStorage = `width-[100%]`
   return (
     <main className="flex min-h-screen flex-col items-center bg-[url(/images/bg-mobile.png)] justify-center bg-cover bg-no-repeat md:flex-row md:[background:url('/images/bg-desktop.png')_#0C122C_no-repeat_left_bottom] md:[background-position:left_bottom,right_top] md:[background-size:100%_50%,cover]">
       <div className="flex flex-col lg:flex-row gap-6 lg:items-end">
@@ -13,7 +14,7 @@ export default function Home() {
               return (
                 <div
                   key={i}
-                  className="bg-oxford_blue p-3 rounded-lg flex items-center"
+                  className="bg-oxford_blue p-3 rounded-lg flex items-center w-12 h-12"
                 >
                   <Image
                     src={`/images/${icon}`}
@@ -28,7 +29,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col bg-delft_blue w-[330px] md:w-[550px] h-[150px] rounded-lg px-5 relative gap-3">
           <p className="text-sm text-center mt-10 text-delft_blue-900 md:text-start">
-            You’ve used 815 GB of your storage
+            You’ve used <strong>815 GB</strong> of your storage
           </p>
           <div className="rounded-full w-full h-5 bg-delft_blue-400 p-1">
             <div
@@ -47,7 +48,7 @@ export default function Home() {
             <p className="text-xs text-taupe_gray font-bold">
               <span className="text-4xl font-bold text-black">185 </span>GB LEFT
             </p>
-            <div className="hidden md:block w-0 h-0 border-t-[25px] border-r-0 border-b-0 border-l-[25px] border-t-white border-b-transparent absolute border-x-transparent top-[100%] right-0"></div>
+            <div className="hidden md:block w-0 h-0 border-t-[20px] border-r-0 border-b-0 border-l-[20px] border-t-white border-b-transparent absolute border-x-transparent top-[100%] right-0"></div>
           </div>
         </div>
       </div>
