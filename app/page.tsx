@@ -3,7 +3,7 @@ import Image from "next/image";
 const icons = ["icon-document.svg", "icon-folder.svg", "icon-upload.svg"];
 
 export default function Home() {
-  const usedStorage = `width-[100%]`
+
   return (
     <main className="flex min-h-screen flex-col items-center bg-[url(/images/bg-mobile.png)] justify-center bg-cover bg-no-repeat md:flex-row md:[background:url('/images/bg-desktop.png')_#0C122C_no-repeat_left_bottom] md:[background-position:left_bottom,right_top] md:[background-size:100%_50%,cover]">
       <div className="flex flex-col lg:flex-row gap-6 lg:items-end">
@@ -33,9 +33,7 @@ export default function Home() {
           </p>
           <div className="rounded-full w-full h-5 bg-delft_blue-400 p-1">
             <div
-              className={`flex bg-gradient-to-r from-[hsl(6,100%,80%)] h-full to-[hsl(335,100%,65%)] rounded-full w-[${
-                (815 / 1000) * 100
-              }%] p-1 items-center relative`}
+              className={`flex bg-gradient-to-r from-[hsl(6,100%,80%)] h-full to-[hsl(335,100%,65%)] rounded-full w-[81.5%] p-1 items-center relative`}
             >
               <div className="absolute bg-white w-2.5 h-2.5 rounded-full right-0.5"></div>
             </div>

@@ -14,7 +14,6 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://fylo-data-storage-component-mauve.vercel.app/](https://fylo-data-storage-component-mauve.vercel.app/)
 
 ## My process
 
@@ -57,12 +56,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [https://angelo-ilardi.vercel.app/](https://angelo-ilardi.vercel.app/)
+- Frontend Mentor - [@helldorado82](https://www.frontendmentor.io/profile/helldorado82)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-[This video by ByteGrad](https://www.youtube.com/watch?v=guh9qzxkb1o) for the helpful trick on how to use dynamic classes in Tailwind CSS
