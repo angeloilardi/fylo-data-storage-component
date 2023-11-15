@@ -33,7 +33,7 @@ export default function Home() {
           </p>
           <div className="rounded-full w-full h-5 bg-delft_blue-400 p-1">
             <div
-              className={`flex bg-gradient-to-r from-[hsl(6,100%,80%)] h-full to-[hsl(335,100%,65%)] rounded-full w-[81.5%] p-1 items-center relative`}
+              className={`flex bg-gradient-to-r from-[hsl(6,100%,80%)] h-full to-[hsl(335,100%,65%)] rounded-full p-1 items-center relative`} style={{width:'81.5%'}}
             >
               <div className="absolute bg-white w-2.5 h-2.5 rounded-full right-0.5"></div>
             </div>
