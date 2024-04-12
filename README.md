@@ -11,7 +11,6 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -30,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/fylo-storage-component-with-nextjs-and-tailwind-css-5iqeiAED_y](https://www.frontendmentor.io/solutions/fylo-storage-component-with-nextjs-and-tailwind-css-5iqeiAED_y)
 - Live Site URL: [https://fylo-data-storage-component-mauve.vercel.app/](https://fylo-data-storage-component-mauve.vercel.app/)
 
 ## My process
